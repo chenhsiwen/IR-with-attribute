@@ -1,0 +1,365 @@
+秋鬥 10 n
+訴求 10 v
+勞工 10 n
+抗議 10 v
+台灣 10 v
+勞工 10 n
+抗議 10 v
+勞委會 10 n
+訴求 10 v
+勞工政策 10 n
+佛羅倫斯‧葛瑞菲絲 10 n
+喬納 10 n
+花蝴蝶 10 n
+花蝴蝶 10 n
+田徑女將 10 n
+佛羅倫斯‧葛瑞菲絲 10 n
+喬納 10 n
+禁藥 10 n
+漢城奧運 10 n
+得獎記錄 10 n
+威而鋼 10 n
+威而鋼 10 n
+副作用 10 n
+研發 10 v
+王丹 10 n
+六四天安門事件 10 n
+全球簽名運動 10 n
+紀念活動 10 n
+六四 10 n
+天安門 10 n
+事件 10 n
+十週年 10 n
+王丹 10 n
+全球簽名運動 10
+紀念活動 10 n
+專家 10 n
+意見 10 n
+國際貨幣基金組織 10  n
+IMF 10 n
+亞洲國家 10 n
+國際貨幣基金組織 10 n
+IMF 10 n
+外匯危機 10 n
+經濟危機 10 n
+亞洲 10 n
+影響 10 v
+北韓 10 n
+飛彈 10 n
+測試 10 v
+發射 10 v
+北韓 10 b
+地對地飛彈 10 n
+長程飛彈 10 n
+飛彈 10 n
+射程 10 n
+洲際 10 n
+大浦洞 10 n
+研究 10 v
+努力 10 v 
+後天性免疫不全症候群 10 n
+愛滋病 10 n
+AIDS 10 n
+愛滋病 10 n
+先天性免疫不全症候群 10 n
+疫苗 10 n
+感染 10 n
+青少年 10 n
+社會問題 10 n
+青少年社會問題 10 n
+青少年問題 10 n
+青少年 10 n
+十來歲的孩子 10 n
+人身買賣 10 n
+逃家 10 v
+搶劫 10 v
+自殺 10 v
+性虐待 10 v
+國際海上意外事件 10 n
+海上意外事件 10 n
+船隻擱淺 10 v
+沈船 10 n
+油輪沈沒 10 v
+原油外洩 10 n
+海上救援行動 10 v
+千禧年 10 v
+Y2K 10 n
+問題 10 v
+企業 10 n
+Y2K 10 n
+千禧蟲 10 n
+標記辨識 10 n
+非法竊聽 10 n
+侵犯 10 v
+隱私權 10 n
+竊聽 10 n
+竊聽器材 10 n
+隱私權 10 n
+中國 10 n
+反應 10 n
+台灣 10 n
+外交關係 10 n
+台灣 10 n
+馬其頓 10 n
+友善 10 v
+中國 10 n
+反應 10 v
+報復 10 v
+中國 10 n
+部署 10 v
+武器 10 n
+台灣 10 n
+中國 10 n
+台灣 10 n
+武器部署 10 v
+軍事部署 10 v
+飛彈部署 10 v
+動物複製技術 10 n
+動物複製 10 n
+人類複製 10 n
+複製技術 10 n
+DNA 10 n
+基因 10 n
+複製羊 10 n
+桃麗 10 n
+遺傳學 10 n
+生物工程 10 n
+行動 10 v
+聯合國軍隊 10 n
+南斯拉夫 10 n
+科索沃 10 n
+南斯拉夫社會聯邦共和國 10 n
+聯合國 10 n
+斯拉夫 10 n
+斯拉夫軍隊 10 n
+阿爾巴尼亞 10 n
+阿爾巴尼亞種族人民 10 n
+種族屠殺 10 v
+入侵 10 v
+空襲 10 v
+大屠殺 10 v
+非法行為 10 v
+腐敗 10 v
+政府官員 10 n
+政府官員 10 n
+教育公共服務 10 n
+社會團體組織 10 n
+公務人員 10 n
+非法行為 10 v
+腐敗 10 v
+賄賂 10 v
+愛滋病 10 n
+AIDS 10 n
+感染人數 10 n
+愛滋病 10 n
+AIDS 10 n
+HIV 10 n
+後天性免疫不足症候群 10 n
+Acquired Immune Deficiency Syndrome 10 eng
+感染人數 10 n
+變化 10 v
+變動 10 v
+卡氏肺囊蟲性肺炎 10 n
+Pneumocystis Carinii Pneumonia 10 eng
+卡波西氏肉瘤 10 n
+Kaposi's Sarcoma 10 eng
+世界衛生組織 10 n
+World Health Organization 10 eng
+WHO 10 eng
+美國疾病管制局 10 n
+US Center for Disease Control 10 eng
+CDC 10 n
+外勞 10 n
+驅逐 10 v
+人權 10 v
+外勞 10 n
+驅逐 10 v
+勞工 10 n
+經濟不景氣 10 n
+失業 10 n
+失業率 10 n
+資訊科技 10 n
+Information Technology 10 eng
+IT 10 n
+軟體 10 n
+技術人員 10 n
+世界反種族歧視會議 10 n
+World Conference Against Racism 10 eng
+WCAR 10 n
+種族歧視 10 v
+人權 10 n
+非政府組織 10 n
+NGO 10 n n
+非法勞工 10 n
+居留權 10 n
+簽證 10 n
+多元文化 10 n
+共存互利 10 n
+蘋果電腦 10 n
+新產品 10 n
+成果 10 n
+蘋果電腦 10 n
+新產品 10 n
+成果 10 n
+Mac作業系統 10 n
+Mac OS 10 n
+史帝夫喬布斯 10 n
+Steve Jobs 10 eng
+iMac 10 eng
+iBook 10 eng
+衍生性商品 10 n
+損失 10 v
+衍生性商品 10 n
+衍生性金融工具 10 n
+養樂多公司 10 n
+Yakult 10 eng
+Cresvale國際公司 10
+Credit Suisse 10 eng
+避險基金 10 n
+Hedge Fund 10 n
+伊拉克 10 n
+毀滅性武器 10 n
+聯合國檢查 10 v
+伊拉克 10 n
+聯合國檢查 10 v
+毀滅性武器 10 n
+海珊總統 10 n
+President Hussein 10 eng
+柯林頓總統 10 n
+President Clinton 10 eng
+聯合國監督伊拉克銷毀毀滅性武器特別委員會 10 eng
+United Nations Special Commission on Weapons of Mass Destruction 10 eng
+UNSCOM 10 n
+安南 10 n
+Kofi Anan 10 n
+性騷擾 10 v
+訴訟 10 n
+性騷擾 10 v
+學術性騷擾 10 v
+訴訟 10 v
+審判 10 v
+柯林頓總統 10 n
+President Clinton 10 eng
+蒙妮卡‧呂文斯基 10 n
+Monica Lewinsky 10 eng
+橫山諾克 10 n
+Knock Yokoyama 10 eng
+節約能源 10 v
+科技 10  n
+能源耗盡 10 v
+節約能源 10 n
+科技 10 n
+能源耗盡 10 v
+二氧化碳 10 n
+CO2 10 n
+太陽能 10 n
+環保車 10 n
+Eco-car 10 n
+環保屋 10 n
+Environmentally-friendly House 10 eng
+環保屋 10 n
+Eco-house 10 n
+國際太空站 10 n
+建設 10 v
+國際太空站 10 n
+建設 10 v
+國際合作計畫 10 n
+太空基地合作計畫 10 n
+太空開發 10 n
+日本宇宙事業開發團 10 n
+National Space Development Agency of Japan 10 eng
+火箭 10 n
+太空實驗 n
+東帝汶 10 n
+East Timor 10
+議題 10 n
+哈比比總統 10 n
+President Habibie 10 eng
+印尼 10 n
+Indonesia 10 n
+東帝汶 10 n
+East Timor 10
+獨立議題 10 n
+主張獨立勢力 10 n
+主張隸屬印尼勢力 10 n
+哈比比總統 10 n
+President Habibie 10 eng
+哈比比政權 10 n
+公民投票 v
+地底核武試爆 10 v
+抗議 10 v
+瓦傑帕伊總理 10 n
+Prime Minister Vajpayee 10 eng
+謝里夫總理 10 n
+Prime Minister Sharif 10 eng
+核武試爆 10 v
+核武 10 n
+全面禁核試條約 10 n
+Comprehensive Test Ban Treaty 10 eng
+CTBT 10 eng
+核武禁止擴散條約 10 n
+Nuclear Non-Proliferation Treaty 10 eng
+NPT 10 n
+能源局 10 n
+次臨界核武試驗 10 n
+Subcritical Nuclear Experiment 10 eng
+反核團體 10 n
+印度 10 n
+巴基斯坦 10 n
+美國 n
+奧林匹克 10 n
+賄賂 10 v
+傳聞 10 v
+奧林匹克 10 n
+五環 10 n
+Five-Ring 10 eng
+國際奧林匹克委員會 10 n
+IOC 10 eng
+IOC成員 10 n
+薩瑪蘭奇主席 10 n
+President Samaranch 10 eng
+請求 10 v
+賄賂 10 v 
+購買 10 v
+傳聞 10 v
+北韓 10 n
+大浦洞 10 n
+Daepodong 10 n
+亞洲 10 n
+反應 10 v
+朝鮮民主主義人民共和國 10 n
+The Democratic People's Republic of Korea 10 eng
+北韓 10 n
+North Korea 10 eng
+大浦洞 10 n
+Taepodong 10 eng
+飛彈 10 n
+彈道飛彈 10 n
+三陸附近海域 10 n
+懲罰 10 v
+報復 10 v
+首相小淵惠三 10 n
+金正日 10 n
+大浦洞 10 n
+Daepodong 10 eng
+颱風 10 n
+豪雨 10 n
+損害 10 v
+颱風 10 n
+豪雨 10 n
+區域性豪雨 10 n
+損害 10 v
+傷亡人數 10 n
+東南亞 10 n
+氣象異常 10 n
+非接觸式智慧卡 10 n
+智慧卡 10 n
+中央處理單元 10 n
+CPU 10 n
+IC記憶晶片 10 n 
+磁卡 10 n 
+電子錢 10 n 
+電子票務系統 10 n 
+公共電話 10 n
+防偽 10 n
+IC卡 10 n
