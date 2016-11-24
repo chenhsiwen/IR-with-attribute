@@ -9,6 +9,7 @@ sys.setdefaultencoding('utf-8')
 Input = open('queries.txt', 'r').read()
 Output = open('output.txt', 'w')
 Doc = open('document.txt', 'r')
+rellist = open('doclist.txt','r')
 
 
 jieba.load_userdict("mydict.txt")
@@ -62,8 +63,10 @@ for word in words:
 					weight = 1.5
 				elif word.flag == 'v':
 					weight = 1
+				elif word.flag == 'uj':
+					weight = 1
 				else :
-					weight = 0
+					weight = 0.5
 				querie.append([word.word,weight])
 
 documentlist = []
@@ -72,23 +75,57 @@ while temp != '':
 	temp=Doc.readline()
 	documentlist.append(temp)
 
+qdlist = []
+qd = [] 
+temp = rellist.readline()
+count = 0 
+num = []
+termstr = ''
+while temp != '':
+	for i in range (len(temp)):
+		if temp[i] == '\t' :
+			count += 1
+			term = []
+		else :
+			if temp[i] == ' ':
+				termstr=''.join(term) 
+				term = []
+				qd.append(int(termstr))
+
+			else :
+				term.append(temp[i])
+	qdlist.append(qd)
+	qd = []
+	temp=rellist.readline()
+	
+print qdlist[0][1]
+
+
 for i in range(len(querieslist)) :
 	Q4 = []
+	Q5 = [] 
 	for k in range(len(querieslist[i][2])) :
-		if len(querieslist[i][2][k][0]) > 2 :
+		if len(querieslist[i][2][k][0]) > 1 :
 			Q4.append(querieslist[i][2][k])
-	Q4 = tool.combinequery(Q4, querieslist[i][1])
-	Q4 = tool.combinequery(Q4, querieslist[i][3])
+	for k in range(len(querieslist[i][1])) :
+		if len(querieslist[i][1][k][0]) > 1 :
+			Q5.append(querieslist[i][1][k])
+	Q4 = tool.combinequery(Q4, Q5)
+	Q5 = [] 
+	for k in range(len(querieslist[i][3])) :
+		if len(querieslist[i][3][k][0]) > 1 :
+			Q5.append(querieslist[i][3][k])
+	Q4 = tool.combinequery(Q4, Q5)
 	querieslist[i].append(Q4)
 count = 0
 
 
-for i in range(len(querieslist)) :
-	print i
-	for j in range(4,5) :
-		for k in range(len(querieslist[i][j])) :
-			print querieslist[i][j][k][1]
-			print querieslist[i][j][k][0]
-			count +=1
-print count		
+#for i in range(len(querieslist)) :
+#	print i
+#	for j in range(4,5) :
+#		for k in range(len(querieslist[i][j])) :
+#			print querieslist[i][j][k][1]
+#			print querieslist[i][j][k][0]
+#			count +=1
+#print count		
 

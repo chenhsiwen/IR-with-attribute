@@ -11,10 +11,11 @@ sys.setdefaultencoding('utf-8')
 
 querieslist = Inputlayer.querieslist
 documentlist = Inputlayer.documentlist
+qdlist = Inputlayer.qdlist
 
 num_doc = len(documentlist)
 num_query = len(querieslist)
-
+num_qd = len(qdlist)
 method = 4
 
 ranklist = [] 
@@ -31,8 +32,9 @@ for q in range(num_query):
 	for j in range(num_term) :
 		print query[j][0]
 		idf.append(0)
-		for i in range(num_doc) :
-			tf = tool.chinese_find(query[j][0],documentlist[i])
+		for i in range (len(qdlist[q])) :
+			did = qdlist[q][i]
+			tf = tool.chinese_find(query[j][0],documentlist[did])
 			col.append(tf)
 			if tf != 0 :
 				idf[j] += 1  
@@ -45,14 +47,14 @@ for q in range(num_query):
 
 	#build the weight matrix
 	for i in range(num_term) :
-		for j in range(num_doc) :
+		for j in range (len(qdlist[q])) :
 			if weight[i][j] != 0 :
 				weight[i][j] = math.log(1+weight[i][j],2) * idf[i] * query[i][1]
 			else :
 				weight[i][j] = 0  
 	print 'do2'
 	#calculate the rank
-	for i in range(num_doc):
+	for i in range (len(qdlist[q])):
 		product = 0
 		dist = 0
 		for j in range(num_term):
@@ -65,9 +67,10 @@ for q in range(num_query):
 	print 'do3'
 	rank = sorted(rank, key=itemgetter(1), reverse=True)
 	for i in range(10):
-		print rank[i][0]
+		rid = rank[i][0]
+		did = qdlist[q][rid]
 		print rank[i][1]
-		print documentlist[rank[i][0]]
+		print documentlist[did]
 	ranklist.append(rank)	
 
 

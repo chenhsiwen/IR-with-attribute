@@ -23,7 +23,7 @@ def chinese_find(query, doc ):
 				btn = 0
 				break
 		count += btn
-	return count*math.log(len(query)+1,2)
+	return count
 def combinequery(Q1, Q2):
 	for l in range(len(Q2)):
 		token = -1 
